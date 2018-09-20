@@ -1,0 +1,33 @@
+{
+  "name": "tradeblock-node",
+  "version": "0.0.1",
+  "description": "TradeBlock NodeJS SDK.",
+  "main": "lib/tradeblock.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hyperether/tradeblock-node-sdk.git"
+  },
+  "keywords": [
+    "tradeblock",
+    "bitcoin",
+    "market",
+    "crypto",
+    "coin"
+  ],
+  "author": "Hyperether Team",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "request": "^2.71.0"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {
+    "nock": "~8.0.0",
+    "mocha": "~2.4.5"
+  },
+  "scripts": {
+    "test": "mocha --reporter spec"
+  }
+}
